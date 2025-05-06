@@ -4,5 +4,5 @@ cd /var/www/html
 
 ls -la
 
-cp -arp dist/. . && rm -rf build
+cp -arp dist/. . && rm -rf dist
 service httpd restart
